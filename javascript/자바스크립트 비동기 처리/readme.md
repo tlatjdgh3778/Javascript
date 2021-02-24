@@ -28,7 +28,7 @@ a()
 이처럼 자바스크립트 엔진에서는 하나의 작업만 실행 할 수 있지만 자바스크립트는 자바스크립트 엔진으로만 돌아가는 것이 아니다.
 
 ### **Runtime**
-![](https://hudi.kr/wp-content/uploads/2018/03/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.png)
+![](https://hudi.kr/wp-content/uploads/2018/03/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.png)  
 구동 순서  
 Call Stack -> Web API -> Callback Queue -> Event Loop 동작 -> Call Stack  
 위의 그림처럼 자바스크립트 엔진 밖에서도 자바스크립트 실행에 관여하는 요소들이 존재한다. **Web API**, **Task Queue**, **Event Loop** 가 있다. 각각에 대해 조금 살펴보면
