@@ -1,4 +1,4 @@
-# JavaScript 정리폴더
+# 👏 JavaScript 정리폴더
 
 
 ✔ [JavaScript ES6 문법 정리](./ECMAScript6/readme.md) 및 [JavaScript 문법](./javascript)들을 정리한 폴더입니다.
