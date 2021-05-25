@@ -1,5 +1,5 @@
 # ES6 문법 정리(2)
-[ES6 1편](https://velog.io/@tlatjdgh3778/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES6-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC)
+[ES6 문법 정리 1편](./ECMAScript6/ES6(1)/readme.md)
 
 # 10. unicode
 # 11. modules
