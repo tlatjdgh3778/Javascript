@@ -1,5 +1,5 @@
 # ES6 문법 정리(2)
-[ES6 문법 정리 1편](./ECMAScript6/ES6(1)/readme.md)
+[ES6 문법 정리 1편](./../ES6(1)/readme.md)
 
 # 10. unicode
 # 11. modules
