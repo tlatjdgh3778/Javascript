@@ -6,7 +6,7 @@
 
 ✔ ES6 문법
 * [ES6 문법 정리 1편](./ECMAScript6/ES6(1)/readme.md)
-* [ES6 문법 정리 1편](./ECMAScript6/ES6(1)/readme.md)
+* [ES6 문법 정리 2편](./ECMAScript6/ES6(2)/readme.md)
 
 
 # 🍳참고
