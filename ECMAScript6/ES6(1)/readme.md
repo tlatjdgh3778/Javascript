@@ -547,3 +547,5 @@ Generator에 대한 자세한 설명은 여기 [MDN - function*](https://develop
 * [MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide)
 * [생활코딩](https://www.youtube.com/watch?v=LF23zkHIODQ&list=PLuHgQVnccGMAMctarDlPyv6upFUUnpSO3&index=15)
 * [모던 JavaScript 튜토리얼](https://ko.javascript.info/https://ko.javascript.info/)
+
+## [ES6 문법 정리 2편](./../ES6(2)/readme.md)
