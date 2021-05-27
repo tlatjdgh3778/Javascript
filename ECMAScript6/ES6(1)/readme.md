@@ -1,6 +1,18 @@
 # ES6 문법 정리(1)
 https://github.com/lukehoban/es6features 와 [MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide) 을 참고하여 ES6 문법을 정리해보고자 한다.
 
+# 목차
+* [1. Arrow function](#1-arrow-function)
+* [2. Classes](#2-classes)
+* [3. Enhanced Object Literal](#3-enhanced-object-literal)
+* [4. Template Literal(Strings)](#4-template-literalstrings)
+* [5. Destructuring](#5-destructuring)
+* [6. Default, Rest, Spread](#6-default-rest-spread)
+* [7. Let, Const](#7-let-const)
+* [8. Iteration, for of](#8-iteration-for-of)
+* [9. Generators](#9-generators)
+
+
 # 1. Arrow function
 arrow function은 화살표 함수라고도 한다. function 키워드 대신 `=>` 키워드를 사용해서 보다 간략한 방법으로 함수를 선언할 수 있게 해준다.
 
