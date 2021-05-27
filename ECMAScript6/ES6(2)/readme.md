@@ -4,13 +4,13 @@
 # 목차
 * [10. Module](#10-module)
 * [11. Map, Set, Weakmap, WeakSet](#11-map-set-weakmap-weakset)
-* [12. Proxy](#12-Proxy)
-* [13. Symbol](#13-Symbol)
-* [14. Promise](#14-Promise)
-* [15. Math, Number, String, Array, Object API](#15-Math-Number-String-Array-Object-Api)
-* [16. Binary and Octal Literals](#16-Binary-and-Octal-Literals)
-* [17. Reflect api](#17-Reflect-api)
-* [18. Tail Call](#18-Tail-Call)
+* [12. Proxy](#12-proxy)
+* [13. Symbol](#13-symbol)
+* [14. Promise](#14-promise)
+* [15. Math, Number, String, Array, Object API](#15-math-number-string-array-object-api)
+* [16. Binary and Octal Literals](#16-binary-and-octal-literals)
+* [17. Reflect api](#17-reflect-api)
+* [18. Tail Call](#18-tail-call)
 
 # 10. Module
 애플리케이션의 크기가 커지면서 파일을 여러개로 분리할 필요가 생긴다. 이 때 분리된 파일 각각을 모듈(Module)이라고 부른다.
