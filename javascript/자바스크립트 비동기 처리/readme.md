@@ -78,6 +78,5 @@ setTimeout(function() {
 
 ## 2. 참고
 
-[https://hudi.blog/async-javascript/](https://hudi.blog/async-javascript/)
-
-https://velog.io/@yejinh/Event-Loop-d4k4llote8
+* [https://hudi.blog/async-javascript/](https://hudi.blog/async-javascript/)
+* https://velog.io/@yejinh/Event-Loop-d4k4llote8
