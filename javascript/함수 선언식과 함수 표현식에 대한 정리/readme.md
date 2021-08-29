@@ -79,20 +79,12 @@ sum(10, 20);
 함수 표현식의 경우는 함수 호이스팅이 아니라 변수 호이스팅이 발생한다.
 
 ```js
-let sum;
-sum(10, 20);
-sum = function (a, b) {
+sum(10, 20);			// TDZ
+let sum = function (a, b) {	// TDZ
   return a + b;
 };
-```
 
-실제로는 이렇게 동작한다.
-
-```js
-sum(10, 20);
-let sum = function (a, b) {
-  return a + b;
-};
+// Uncaught TypeError: sum is not a function
 ```
 
 따라서 `let` 변수 에 대해서 호이스팅을 하게 되는데, `let`은 `TDZ`의 영향을 받는 구문이다. 따라서 호이스팅은 수행하지만 초기화되기 전에 참조를 해서 `ReferenceError`가 출력된다.  
@@ -174,12 +166,12 @@ for (i = 0; i < tabs.length; i++) {
 이 코드에서는 어느 탭을 클릭해도 `i` 는 `for` 반목문의 최종 값인 `tabs.length` 가 찍히게 된다.
 
 
-<!-- <iframe src="https://codesandbox.io/embed/charming-nobel-gwnfc?fontsize=14&hidenavigation=1&theme=dark"
+<iframe src="https://codesandbox.io/embed/charming-nobel-gwnfc?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="charming-nobel-gwnfc"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>-->
+   ></iframe>  
 
 보기 쉽도록 `for` 문 안의 `function()` 을 밖으로 꺼내서 선언해보면
 
@@ -216,12 +208,13 @@ for (i = 0; i < tabs.length; i += 1) {
 ```
 
 
-<!--<iframe src="https://codesandbox.io/embed/fervent-wave-lvzl9?fontsize=14&hidenavigation=1&theme=dark"
+<iframe src="https://codesandbox.io/embed/fervent-wave-lvzl9?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="fervent-wave-lvzl9"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>-->
+   ></iframe>
+   
 
 `for` 반복문이 수행될 때 `i` 값을 `tabsHandler()` 에 넘기고, 클로저인 `tabClickEvent()` 에서 `tabsHandler()` 의 인자 값 `index` 에 접근할 수 있게 된다. 따라서 우리가 원하는 각 탭의 `index` 에 접근할 수 있는 것이다.
 
