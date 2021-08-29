@@ -235,7 +235,7 @@ console.log(second);
 // 쉼표를 사용해서 필요하지 않은 부분은 무시가 가능하다.
 let [first, ,third] = arr;
 console.log(first);
-console.log(second);
+console.log(third);
 // Shim
 // Kim
 
