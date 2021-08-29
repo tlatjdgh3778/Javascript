@@ -34,8 +34,7 @@ a();
 
 ### **Runtime**
 
-![Runtime](https://hudi.blog/static/a146f81daa6551ebe0c29e7b361d7653/ca1dc/03.png)
-
+![Runtime](https://hudi.kr/wp-content/uploads/2018/03/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.png)
 구동 순서  
 Call Stack -> Web API -> Callback Queue -> Event Loop 동작 -> Call Stack  
 위의 그림처럼 자바스크립트 엔진 밖에서도 자바스크립트 실행에 관여하는 요소들이 존재한다. **Web API**, **Task Queue**, **Event Loop** 가 있다. 각각에 대해 조금 살펴보면
@@ -53,7 +52,7 @@ setTimeout(function() {
     console.log("Hello World");
 }, 5000);
 ```
-1. 코드가 실행되고 `setTimeout` 함수가 `Call stack` 에는 `setTimeout` 함수가 추가된다.
+1. 코드가 실행되고 `Call stack` 에는 `setTimeout` 함수가 추가된다.
 ![](https://hudi.blog/static/41d867cee5a981c47fc9d0121ca2fb4c/ca1dc/04.png)
 
 2. `setTimeout` 함수는 자바스크립트 엔진이 처리하지 않고, `Web API` 가 처리해서 `setTimeout` 에 담긴 콜백 함수를 전달함과 동시에 `setTimeout` 작업을 요청한다.  
@@ -78,5 +77,6 @@ setTimeout(function() {
 
 ## 2. 참고
 
-* [https://hudi.blog/async-javascript/](https://hudi.blog/async-javascript/)
-* https://velog.io/@yejinh/Event-Loop-d4k4llote8
+[https://hudi.blog/async-javascript/](https://hudi.blog/async-javascript/)
+
+https://velog.io/@yejinh/Event-Loop-d4k4llote8
